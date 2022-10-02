@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <picture>
+          <source
+            media="(min-width: 1080px)"
+            srcset="LANDSCAPE.png 1920w"
+          />
+          <source
+            media="(min-width: 0px)"
+            srcset="POTRAIT.png 1080w"
+          />
+          <img src="landscape.png" />
+        </picture>
+      </section>
+    </main>
+  </body>
+</html>
